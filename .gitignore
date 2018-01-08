@@ -86,6 +86,7 @@ celerybeat-schedule
 .venv
 venv/
 ENV/
+.lambdaenv/
 
 # Spyder project settings
 .spyderproject
@@ -106,3 +107,11 @@ ENV/
 # Vim tmp.
 *.swp
 *~
+
+# Deploy Package
+coinpan.zip
+coinpan.zip.old
+
+# Config
+config.py
+
